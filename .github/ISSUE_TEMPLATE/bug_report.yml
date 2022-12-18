@@ -2,7 +2,7 @@ name: Bug report
 description: Create a report to help us improve
 title: "[Version number] Issue subject goes here"
 labels: Bug
-assignees:
+assignees: []
 body:
     - type: textarea
       attributes:
@@ -21,13 +21,3 @@ body:
               ...
       validations:
           required: true
-    - type: checkbox
-      attributes:
-          label: Affected browsers
-          options:
-              - Chrome
-              - Firefox
-              - Safari
-              - Other
-      validations:
-          required: false
