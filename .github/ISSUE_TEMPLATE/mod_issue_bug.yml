@@ -1,0 +1,64 @@
+name: Bug report
+description: Create a bug report for this mod.
+title: "[loader-vX.X+1.X.X] Bug report name"
+labels: ["Bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report!
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Issue titles start with the square brackets that contain the full mod version.<br/>
+        **Format:** [mod_loader]-[mod_version]-[minecraft_version]; **Example: fabric-v1.0+1.19.2**
+  - type: input
+    id: enviroment
+    attributes:
+      label: Enviroment
+      description: Please state your OS name and version, as well as the Java version.
+      placeholder: State the OS name and Java version here!
+      value: Windows 11; Latest Java version;
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe what happened, aka the bug or issue you encountered.
+      placeholder: Describe the issue here!
+      value: "When doing something expecting X to happen, I got Y instad."
+    validations:
+      required: true
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other installed mods
+      description: If applicable, please list all other mods you have installed alongside this one.
+      placeholder: List other installed mods here!
+      value: |
+        1. First mod's name
+        2. Second mod's name
+        3. And so on... If you use a mod pack instead, state that and name the mod pack.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output or crash report
+      description: |
+        Please copy and paste any relevant log outputs or crash reports here.<br/>
+        Alternatively, you can publish the logs to [Crashy](https://crashy.net/) and link them here.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: "By submitting this issue, you agree to the following:"
+      options:
+        - label: I agree that if the issue is regarding a crash, I gave the logs and the crash report.
+          required: true
+        - label: I agree that I will be available later for any follow-up questions to help diagnose and resolve the issue.
+          required: true
+        - label: I agree that not fulfilling the agreement(s) above may result in the issue being dismissed.
+          required: true
