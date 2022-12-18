@@ -10,8 +10,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Note:** Issue titles start with the square brackets that contain the full mod version.<br/>
-        **Format:** [mod_loader]-[mod_version]-[minecraft_version]; **Example: fabric-v1.0+1.19.2**
+        **Note:** Issue titles start with the square brackets that contain the full mod version.  
+        **Format:** [mod_loader]-[mod_version]-[minecraft_version]  
+        **Example: fabric-v1.0+1.19.2**
   - type: input
     id: enviroment
     attributes:
@@ -47,7 +48,7 @@ body:
     attributes:
       label: Relevant log output or crash report
       description: |
-        Please copy and paste any relevant log outputs or crash reports here.<br/>
+        Please copy and paste any relevant log outputs or crash reports here.  
         Alternatively, you can publish the logs to [Crashy](https://crashy.net/) and link them here.
       render: shell
   - type: checkboxes
