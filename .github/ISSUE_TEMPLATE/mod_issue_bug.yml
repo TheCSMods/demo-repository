@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         **Note:** Issue titles start with the square brackets that contain the full mod version.  
-        **Format:** [mod_loader]-[mod_version]-[minecraft_version]  
+        **Format:** [mod_loader]-[mod_version]+[minecraft_version]  
         **Example: fabric-v1.0+1.19.2**
   - type: input
     id: enviroment
