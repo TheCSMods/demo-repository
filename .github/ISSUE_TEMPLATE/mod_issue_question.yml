@@ -4,14 +4,6 @@ title: "Issue name"
 labels: ["Question"]
 assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this question!  
-
-#        **Note:** Suggestion titles start with the square brackets that contain the **latest** full mod version.  
-#        **Format:** [mod_loader]-[mod_version]+[minecraft_version]  
-#        **Example: fabric-v1.0+1.19.2**
   - type: textarea
     id: question
     attributes:
