@@ -32,6 +32,26 @@ body:
     validations:
       required: true
   - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: If applicable, please list the steps to reproduce the issue.
+      placeholder: List steps to reproduce here!
+      value: |
+        1. Go to...
+        2. Then do...
+        3. See the bug or issue or a crash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output or crash report
+      description: |
+        Please copy and paste any relevant log outputs or crash reports here.  
+        Alternatively, you can publish the logs to [Crashy](https://crashy.net/) and link them here.
+      render: shell
+  - type: textarea
     id: other-mods
     attributes:
       label: Other installed mods
@@ -43,14 +63,6 @@ body:
         3. And so on... If you use a mod pack instead, state that and name the mod pack.
     validations:
       required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output or crash report
-      description: |
-        Please copy and paste any relevant log outputs or crash reports here.  
-        Alternatively, you can publish the logs to [Crashy](https://crashy.net/) and link them here.
-      render: shell
   - type: checkboxes
     id: terms
     attributes:
