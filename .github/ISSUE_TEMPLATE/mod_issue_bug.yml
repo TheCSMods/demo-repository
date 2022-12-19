@@ -19,7 +19,7 @@ body:
       label: Enviroment
       description: Please state your OS name and version, as well as the Java version.
       placeholder: State the OS name and Java version here!
-      value: Windows 11; Latest Java version;
+      value: Windows 10; Latest Java version;
     validations:
       required: true
   - type: textarea
