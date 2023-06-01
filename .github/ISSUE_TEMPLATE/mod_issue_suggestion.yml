@@ -43,5 +43,3 @@ body:
       options:
         - label: I agree that I will be available later for any follow-up questions to help with implementing the suggested thing.
           required: true
-        - label: I agree that not fulfilling the agreement(s) above may result in the suggestion being dismissed.
-          required: true
