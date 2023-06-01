@@ -13,15 +13,6 @@ body:
         **Note:** Issue titles start with the square brackets that contain the full mod version.  
         **Format:** [mod_loader]-[mod_version]+[minecraft_version]  
         **Example: fabric-v1.0+1.19.2**
-  - type: input
-    id: enviroment
-    attributes:
-      label: Enviroment
-      description: Please state your OS name and version, as well as the Java version.
-      placeholder: State the OS name and Java version here!
-      value: Windows 10; Latest Java version;
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
