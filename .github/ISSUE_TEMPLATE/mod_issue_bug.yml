@@ -1,6 +1,6 @@
 name: Bug report
 description: Create a bug report for this mod.
-title: "[loader-vX.X+1.X.X] Bug report name"
+title: "[vX.X+loader-1.X.X] Bug report name"
 labels: ["Bug"]
 assignees: []
 body:
@@ -11,8 +11,8 @@ body:
     attributes:
       value: |
         **Note:** Issue titles start with the square brackets that contain the full mod version.  
-        **Format:** [mod_loader]-[mod_version]+[minecraft_version]  
-        **Example: fabric-v1.0+1.19.2**
+        **Format:** v[mod_version]+[mod_loader]-[minecraft_version]  
+        **Example: v1.0+fabric-1.20**
   - type: textarea
     id: what-happened
     attributes:
