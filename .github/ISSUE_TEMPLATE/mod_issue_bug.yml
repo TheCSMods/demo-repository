@@ -21,7 +21,7 @@ body:
       placeholder: State the OS name and Java version here!
       value: Windows 10; Latest Java version;
     validations:
-      required: true
+      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -72,6 +72,4 @@ body:
         - label: I agree that if the issue is regarding a crash, I gave the logs and the crash report.
           required: true
         - label: I agree that I will be available later for any follow-up questions to help diagnose and resolve the issue.
-          required: true
-        - label: I agree that not fulfilling the agreement(s) above may result in the issue being dismissed.
           required: true
